@@ -11,12 +11,12 @@ function Allergies({modifyIndex}) {
         }
         allCheckBoxes.current.forEach(checkbox => {
             if(checkbox.checked){
-                styleData.foodStyle.push(checkbox.value)
+                styleData.allergies.push(checkbox.value)
             }
             
         })
 
-        modifyIndex(4, styleData)
+        modifyIndex(5, styleData)
     }
     
     const allCheckBoxes = useRef([])
@@ -29,7 +29,7 @@ function Allergies({modifyIndex}) {
     console.log("mon all",allCheckBoxes)
     
     const handleReturn = () => {
-        modifyIndex(2)
+        modifyIndex(3)
     }
     return (
         <form

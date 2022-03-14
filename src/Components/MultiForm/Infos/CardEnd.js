@@ -6,7 +6,7 @@ function CardEnd() {
             <h1>Bravo !!!</h1>
             <p>On peut maintenant te proposer des
             plats en fonction de tes goûts</p>
-            <button>COMMENCER</button>
+            {/* <button>COMMENCER</button> */}
         </div>
     )
 }
